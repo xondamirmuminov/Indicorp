@@ -1,0 +1,52 @@
+///////////ColoR///////////
+$second: #737373;
+$black: #252B42;
+$orange: #FFA62B;
+$blue: #00A0C1;
+$gray: #FAFAFA;
+$unusual: #16697A;
+$dark-bl: #252B42;
+
+///////////FontS////////////
+$t-sm: 14px;
+$t-md: 18px;
+$t-lg: 20px;
+$t-xl: 24px;
+$t-xxl: 60px;
+
+///////////MixiN///////////
+@mixin header($justify,$align,$display,) {
+    justify-content: $justify;
+    align-items: $align;
+    display: $display;
+}
+
+@mixin link($margin,$color,$fs,$fw,$td) {
+  margin-right: $margin;
+  color: $color;
+  font-size: $fs;
+  font-weight: $fw;
+  text-decoration: $td;
+}
+
+@mixin logo($color,$fs,$fw,$td) {
+  color: $color;
+  font-size: $fs;
+  font-weight: $fw;
+  text-decoration: $td;
+}
+
+@mixin text($color,$fs,$fw,$mx) {
+  color: $color;
+  font-size: $fs;
+  font-weight: $fw;
+  text-decoration: $td;
+  max-width: $mx;
+}
+
+@mixin card($bg,$w,$mt,$mr,$p) {
+  background-color: $bg;
+  max-width: $m-w;
+  margin-right: $mr;
+  padding: $p;
+}
